@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="简单音乐播放器" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="播放音乐"></Button>
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停播放"></Button>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止播放"></Button>
+
+    <Button
+        android:id="@+id/btnIncreaseVoice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="增大音量"></Button>
+
+    <Button
+        android:id="@+id/btnReduceVoice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="减小音量"></Button>
+</LinearLayout>
